@@ -15,6 +15,7 @@ Python FastAPI, and WebSockets. Zero physical hardware required.
 [Watch Demo Video](demo/dashboard_demo.mp4)
 
 ## Folder Structure 
+```
 CODESYS-OPCUA-IoT-Dashboard/
 │
 ├── README.md
@@ -38,9 +39,10 @@ CODESYS-OPCUA-IoT-Dashboard/
 │
 └── demo/
     └── dashboard_demo.mp4
+```
 
 ## System Architecture
-CODESYS V3.5 SoftPLC
+```CODESYS V3.5 SoftPLC
 └── IEC 61131-3 Structured Text
 └── 6 live process variables
 ↕ OPC-UA Server (port 4840)
@@ -65,7 +67,7 @@ Browser Dashboard
 | Backend | FastAPI + uvicorn |
 | Real-time Push | WebSockets (100ms) |
 | Frontend | Vanilla JS + Canvas API |
-
+```
 ## Security Implementation
 - Role-based access control via CODESYS User Management
 - Anonymous group: read-only View access
