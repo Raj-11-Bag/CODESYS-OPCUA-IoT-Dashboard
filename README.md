@@ -20,23 +20,18 @@ CODESYS-OPCUA-IoT-Dashboard/
 │
 ├── README.md
 ├── requirements.txt
-│
 ├── plc/
 │   └── IoT_dashboard_with_security_Raj_Bag.project
-│
 ├── backend/
 │   ├── main.py
 │   ├── opc_client.py
 │   └── find_nodes.py
-│
 ├── frontend/
 │   └── static/
 │       └── index.html
-│
 ├── docs/
 │   ├── architecture_diagram.png
 │   └── signal_table.md
-│
 └── demo/
     └── dashboard_demo.mp4
 ```
