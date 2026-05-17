@@ -12,7 +12,8 @@ connecting a CODESYS SoftPLC to a browser interface via OPC-UA,
 Python FastAPI, and WebSockets. Zero physical hardware required.
 
 ## Demo
-[Watch Demo Video](demo/dashboard_demo.mp4)
+
+[![Watch the video](https://img.youtube.com/vi/yefTvgJmlp0/0.jpg)](https://youtu.be/yefTvgJmlp0)
 
 ## Folder Structure 
 ```
