@@ -55,8 +55,8 @@ Browser Dashboard
 └── Live state indicator
 └── Cycle counter + trend chart
 └── Temperature gauge + graph
-└── START/STOP PLC control buttons ```
-
+└── START/STOP PLC control buttons
+```
 ## Technology Stack
 | Layer | Technology |
 |---|---|
