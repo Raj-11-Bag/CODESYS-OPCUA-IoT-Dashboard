@@ -14,6 +14,31 @@ Python FastAPI, and WebSockets. Zero physical hardware required.
 ## Demo
 [Watch Demo Video](demo/dashboard_demo.mp4)
 
+## Folder Structure 
+CODESYS-OPCUA-IoT-Dashboard/
+│
+├── README.md
+├── requirements.txt
+│
+├── plc/
+│   └── IoT_dashboard_with_security_Raj_Bag.project
+│
+├── backend/
+│   ├── main.py
+│   ├── opc_client.py
+│   └── find_nodes.py
+│
+├── frontend/
+│   └── static/
+│       └── index.html
+│
+├── docs/
+│   ├── architecture_diagram.png
+│   └── signal_table.md
+│
+└── demo/
+    └── dashboard_demo.mp4
+
 ## System Architecture
 CODESYS V3.5 SoftPLC
 └── IEC 61131-3 Structured Text
